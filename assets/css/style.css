@@ -1,0 +1,70 @@
+body{
+    color: white;
+    text-shadow: black 3px 3px 3px;
+    text-align: center;
+    font-family: 'myFirstFont';
+    background: #D2D2D2;
+    background: -moz-linear-gradient(left, #D2D2D2 0%, #909090 50%, #000000 100%);
+    background: -webkit-linear-gradient(left, #D2D2D2 0%, #909090 50%, #000000 100%);
+    background: linear-gradient(to right, #D2D2D2 0%, #909090 50%, #000000 100%);
+}
+.grid{
+    background-color: black;
+    background: #FFFFFF;
+    background: -moz-linear-gradient(top, #FFFFFF 0%, #909090 50%, #000000 100%);
+    background: -webkit-linear-gradient(top, #FFFFFF 0%, #909090 50%, #000000 100%);
+    background: linear-gradient(to bottom, #FFFFFF 0%, #909090 50%, #000000 100%);
+    margin-top: 5%;
+    width: max-content;
+    box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(../font/Pokemon_Solid.ttf);
+}
+p{
+    margin-top: 2%;
+}
+.flip img {
+    width: 100px;
+    height: auto;
+    border-radius: 30PX;
+    margin-right: 5%;
+}
+
+.flip .back {
+    text-align: center;
+}
+
+.back {
+    position: relative;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.front {
+    position: absolute;
+    z-index: 1;
+}
+
+
+.myButton {
+    color: white;
+    text-shadow: black 3px 3px 3px;
+    font-size: 23px; 
+    line-height: 23px; 
+    padding: 15px; 
+    border-radius: 50px; 
+    font-family: Georgia, serif; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-image: 
+    linear-gradient(to right, black 0%, gray 50%, white 100%); 
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; 
+    border: 2px solid white; 
+    display: inline-block;
+}
+    
